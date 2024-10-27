@@ -53,7 +53,10 @@ def main():
 
         result = {
             "job_posting": job_posting,
-            "score": score,
+            "score": {
+                "rating": score.rating,
+                "reasoning": score.reasoning,
+            },
         }
 
         results.append(result)
