@@ -1,0 +1,92 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+basics:
+  name: "Zohair ul Hasan"
+  email: "zohair.ul.hasan@gmail.com"
+  profiles:
+    - network: "LinkedIn"
+      username: "zohair01"
+      url: "https://linkedin.com/in/zohair01"
+    - network: "GitHub"
+      username: "Zohair-coder"
+      url: "https://github.com/Zohair-coder"
+  url: "https://zohair.dev"
+
+education:
+  - institution: "Drexel University"
+    location: "Philadelphia, PA"
+    area: "Computer Science"
+    studyType: "Bachelor of Science"
+    startDate: "2019-09"
+    endDate: "2024-06"
+    score: "3.86"
+
+work:
+  - name: "Susquehanna International Group"
+    location: "Philadelphia, PA"
+    position: "Software Developer - Corporate Systems"
+    startDate: "2024-09"
+    highlights:
+      - "Developed a platform in C# for tagging Azure resources across subscriptions with mandatory metadata."
+
+  - name: "Susquehanna International Group"
+    location: "Philadelphia, PA"
+    position: "Software Engineering Coop - Corporate Systems"
+    startDate: "2023-03"
+    endDate: "2023-09"
+    highlights:
+      - "Worked with .NET, SQL Server, and Elastic APM on multiple projects."
+      - "Improved accessibility and performance monitoring in .NET MVC applications."
+      - "Automated IIS log retrieval and data visualization in Grafana using C#."
+      - "Built and deployed a .NET 7 Minimal API application to Kubernetes, addressing Windows Authentication in Linux containers."
+      - "Created Symphony chatbot for scheduled communication, enhancing operational updates."
+      - "Developed a force-directed graph visualization tool using d3.js."
+
+  - name: "SAP America"
+    location: "Philadelphia, PA"
+    position: "Software Engineering Coop - Artificial Intelligence"
+    startDate: "2021-03"
+    endDate: "2023-03"
+    highlights:
+      - "Contributed to open-source ML Lab, a centralized hub for scalable ML solution development."
+      - "Integrated ML Flow with ML Lab using Python, FastAPI, and React for tracking ML metrics."
+      - "Developed a Job Scheduler for repeated job execution using cron parsing."
+
+  - name: "SAP America"
+    location: "Philadelphia, PA"
+    position: "Software Engineering Coop - Production Management Portals"
+    highlights:
+      - "Developed a VM usage reporting webapp using vanilla JavaScript, Node.js, and a Go-based Terraform provider."
+      - "Deployed the app via Docker and Kubernetes for reliability and scalability."
+      - "Created a private Terraform registry and modules to improve employee productivity."
+
+  - name: "Drexel College of Computing and Informatics"
+    location: "Philadelphia, PA"
+    position: "Teacher Assistant"
+    startDate: "2021-04"
+    highlights:
+      - "Developed a grading efficiency tool, achieving a 20x improvement and sold it for $500."
+
+projects:
+  - name: "Drexel Scheduler"
+    url: "https://scheduler.zohair.dev"
+    description: "Python web scraper and Grafana dashboard to help students filter and find electives."
+    highlights:
+      - "Built scraper to autonomously fetch Drexel's course catalog and professor ratings from RateMyProfessors."
+      - "Stored data in PostgreSQL and presented in a Grafana dashboard, attracting 2000+ active users."
+      - "Hosted on a Kubernetes cluster on Oracle Cloud for high availability and scalability."
+      - "Automated CI/CD pipeline with GitHub Actions, reducing deployment time by 50%."
+    keywords: ["Python", "Kubernetes", "PostgreSQL", "GitHub Actions"]
+    startDate: "2023-02"
+
+skills:
+  - name: "Languages"
+    keywords: ["Python", "C#", "JavaScript", "SQL"]
+
+  - name: "Tools & Frameworks"
+    keywords: [".NET", "Express.js", "FastAPI", "React", "Docker", "Kubernetes", "Helm", "Terraform", "GitLab CI/CD", "Git"]
+
+meta:
+  canonical: "https://www.zohair.dev/resume"
+  version: "1.0.0"
+  lastModified: "2024-10-27T00:00:00"

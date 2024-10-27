@@ -1,0 +1,95 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+basics:
+  name: "Aliza Abbasi"
+  email: "aaa582@drexel.edu"
+  phone: "215-669-1792"
+  profiles:
+    - network: "LinkedIn"
+      username: "alizaabbasi"
+      url: "https://www.linkedin.com/in/alizaabbasi"
+  location:
+    city: "Philadelphia"
+    region: "PA"
+
+education:
+  - institution: "Drexel University"
+    location: "Pennsylvania, PA"
+    area: "Economics and Data Science"
+    studyType: "Bachelor of Science, Minor in Computer Science"
+    startDate: "2023-08"
+    endDate: "2028-05"
+    score: "3.28"
+
+awards:
+  - title: "Drexel Merit Founder's Scholarship"
+    awarder: "Drexel University"
+    summary: "Awarded $53,000 per year for academic performance and leadership"
+
+projects:
+  - name: "Learnify at Philly Codefest"
+    description: "Prototype for an AI-based extension to Drexel’s LMS (Blackboard)"
+    highlights:
+      - "Developed using HTML, CSS, and JavaScript for Philly Codefest competition"
+      - "Created visually engaging site using Tailwind CSS"
+      - "Integrated Three.js for interactive 3D elements"
+    startDate: "2023-02"
+    keywords: ["HTML", "CSS", "JavaScript", "Three.js"]
+
+work:
+  - name: "Drexel University"
+    location: "LeBow College of Business"
+    position: "Peer Mentor"
+    startDate: "2024-09"
+    highlights:
+      - "Led UNIV 101 class of 30+ first-year students, fostering academic and personal growth"
+      - "Organized group discussions for active participation"
+      - "Guided students in time management, study habits, and campus engagement"
+      - "Directed students to utilize campus services for academic success"
+
+  - name: "Global Learning Community"
+    location: "LeBow College of Business, Drexel University"
+    position: "Member"
+    startDate: "2023-09"
+    highlights:
+      - "Selected as part of a group of high-achieving, first-year business students with leadership potential"
+      - "Led peer discussions encouraging global thinking in business contexts"
+      - "Built connections in international business through networking"
+
+  - name: "Drexel University Recreation Center"
+    location: "Philadelphia, PA"
+    position: "IntraMural Official"
+    startDate: "2024-03"
+    highlights:
+      - "Officiated sports like soccer, volleyball, and basketball, ensuring rule compliance"
+      - "Developed decision-making and conflict-resolution skills"
+      - "Experienced with electronic scoring and officiating equipment"
+
+  - name: "International School Lahore"
+    location: "Lahore, Pakistan"
+    position: "Headgirl, Student Council"
+    startDate: "2021-01"
+    endDate: "2023-08"
+    highlights:
+      - "Led a 3500+ student body and oversaw 15+ clubs"
+      - "Headed 'Markhor's Den,' the city’s largest business event, coordinating 20+ entrepreneur teams"
+      - "Incorporated AI strategies, marketing models, and case studies to solve real-world business problems"
+      - "Authored the School Constitution"
+
+skills:
+  - name: "Programming Languages"
+    keywords: ["Python", "JavaScript", "HTML", "SQL"]
+
+  - name: "Tools and Software"
+    keywords: ["Microsoft Excel", "Microsoft Office Suite", "Debugging Tools"]
+
+  - name: "Data Skills"
+    keywords: ["Data Analysis", "Data Visualization"]
+
+  - name: "Other Skills"
+    keywords: ["OOP", "Linux/Unix Systems"]
+
+meta:
+  canonical: "https://www.linkedin.com/in/alizaabbasi"
+  version: "1.0.0"
+  lastModified: "2024-10-27T00:00:00"

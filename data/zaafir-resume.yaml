@@ -1,0 +1,80 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+basics:
+  name: "Zaafir ul Hasan"
+  email: "zaafir.ul.hasan@gmail.com"
+  phone: "267-249-3284"
+  profiles:
+    - network: "LinkedIn"
+      username: "zaafir-hasan"
+      url: "https://www.linkedin.com/in/zaafir-hasan/"
+    - network: "GitHub"
+      username: "ZaafirUlHasan"
+      url: "https://github.com/ZaafirUlHasan"
+
+education:
+  - institution: "Drexel University"
+    location: "Philadelphia, PA"
+    area: "Computer Science"
+    studyType: "Bachelor of Science with Honors"
+    startDate: "2022-09"
+    endDate: "2027-06"
+    score: "3.91"
+
+work:
+  - name: "Fauji Fertilizer Company"
+    location: "Rawalpindi, Pakistan"
+    position: "Software Engineering Intern"
+    startDate: "2024-04"
+    endDate: "2024-09"
+    highlights:
+      - "Built a medical referral system for 3500+ employees and dependents through a .NET web application."
+      - "Integrated healthcare providers for a seamless experience, managing 20,000 referrals annually."
+      - "Utilized Oracle Database for real-time data and future healthcare provider integration."
+      - "Developed an Asset Transfer System for 600+ cost centers using a .NET application."
+      - "Created a custom workflow management system for automation with an Oracle-based database."
+
+  - name: "Drexel University College of Computing & Informatics"
+    location: "Philadelphia, PA"
+    position: "Teaching Assistant"
+    startDate: "2024-09"
+    highlights:
+      - "Assisted with CS 270: 'Mathematical Foundations of Comp. Sci.'"
+      - "Led practical lab sessions, guiding students through exercises to bridge theory and practice."
+
+  - name: "AI for Med: STEMx"
+    location: "Remote"
+    position: "Computer Science Specialist"
+    startDate: "2024-06"
+    endDate: "2024-09"
+    highlights:
+      - "Analyzed cancer gene expression data to identify significant upregulated and downregulated genes."
+      - "Applied computer vision techniques using OpenCV to aid in diagnosing diabetic retinopathy."
+
+projects:
+  - name: "My Lyric"
+    description: "Full-stack web application enabling users to search song lyrics within Spotify playlists."
+    highlights:
+      - "Developed backend with Express.js API and PostgreSQL, with caching strategies."
+      - "Implemented Full-Text Search and GIN indexing in PostgreSQL, improving search by 90%."
+      - "Integrated Spotify API with OAuth 2.0 for playlist metadata."
+      - "Built responsive React frontend for playlist interaction."
+    keywords: ["React", "Node.js", "PostgreSQL"]
+    startDate: "2024-05"
+    endDate: "2024-09"
+
+  - name: "TrackIt"
+    description: "Web application for gamers to centralize statistics from game launchers."
+    highlights:
+      - "Backend developed with Python and Flask for API data handling."
+      - "Managed full product cycle in Agile team, including documentation."
+    keywords: ["Python", "Flask", "JavaScript"]
+    startDate: "2023-01"
+    endDate: "2023-06"
+
+skills:
+  - name: "Languages"
+    keywords: ["C#", "Python", "Java", "C", "SQL (Postgres, Oracle)", "JavaScript", "HTML/CSS"]
+
+  - name: "Frameworks/Libraries"
+    keywords: [".NET", "React", "Express.js", "Bootstrap", "OpenCV", "Flask", "JUnit", "jQuery"]
